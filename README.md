@@ -16,6 +16,7 @@ Este é um proxy malicioso usando o mitmproxy para injetar código em páginas w
    chmod +x certs/*
    ```
    Caso vc queira um certificado personalizado, use ```./run-cert.sh```
-   Caso não, você pode utilizar o certificado padrão do mitmproxy ```./run.sh```, conecte-se a proxy e acesse ```https://mitm.it``` e instale o certificado de acordo com o sistema operacional.
-   
-   
+   Caso não, você pode utilizar o certificado padrão do mitmproxy ```./run.sh```, conecte-se a proxy e acesse ```https://mitm.it``` e instale o certificado de acordo com o sistema operacional da vitima.
+
+2. Arquivo code.n:
+   Aqui ficara o codigo que sera injetado no navegar, modifiquem como preferirem.
