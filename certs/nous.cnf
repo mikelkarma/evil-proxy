@@ -1,0 +1,20 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+x509_extensions    = v3_ca
+prompt             = no
+
+[ req_distinguished_name ]
+C  = US
+ST = New York
+L  = New York
+O  = MyOrganization
+OU = MyOrgUnit
+CN = MyCommonName
+
+[ v3_ca ]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = mydomain.com
+DNS.2 = myotherdomain.com
