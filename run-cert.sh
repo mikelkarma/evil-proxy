@@ -5,7 +5,7 @@ if [ -e certs/nous.pem ]; then
     mitmdump -s evil-proxy.py
 else
     echo "[!] Certs not found."
-n   echo "[i] Generating..."
+    echo "[i] Generating..."
     sh certs/generate.sh
     echo "[i] Executing..."
     mitmdump -s evil-proxy.py
