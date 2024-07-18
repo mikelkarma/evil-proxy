@@ -10,7 +10,7 @@ Este é um proxy malicioso usando o mitmproxy para injetar código em páginas w
 ## Instalação
 1. Clone este repositório:
    ```bash
-   apt install git python3
+   apt install git python3 rust
    git clone https://github.com/mikelkarma/evil-proxy
    python3 -m pip install mitmproxy
    chmod +x *
